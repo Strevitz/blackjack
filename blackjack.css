@@ -1,0 +1,83 @@
+body{
+   background-image: url('img/dealer.jpg');
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.logo{
+    font-size: 65px;
+    font-family: 'CasinoShadow', sans-serif;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background-image: url('img/green3.jpg');
+    max-width: 100%;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid white;
+    padding: 10px;
+    height: 280px;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.container{
+
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-blackjack-row-3{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.flex-blackjack-row{
+    border: 1px solid white;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+@font-face{
+    font-family: 'CasinoShadow';
+    src: url("font/CasinoShadow.ttf");
+    src: 
+		local('CasinoShadow'),
+		local('CasinoShadow'),
+		url('font/CasinoShadow.ttf');
+		format ('opentype');
+}

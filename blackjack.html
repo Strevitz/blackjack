@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html lang="pl"><!--<![endif]-->
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Clean Cuts & Shaves - Barber Shop</title>
+    <meta name="author" content="Arthur Strzewiczek">
+    <meta name="description" content="UZUPEŁNIJ I ZNAJDZ OPIS W NECIE">
+    <meta name="keywords" content="javascript, html, css, less css, web deweloper, bootstrap, sketch, adobe xd, ux, ui, frontend, chrome tools">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="blackjack.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Girassol|Oswald&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="flex-blackjack-row">
+
+        <h1 class="logo p-2 text-warning">Blackjack</h1>
+
+        <h3><span id="blackjack-result">ZAGRAJMY!</span></h3>
+
+      </div>
+
+      <div class="flex-blackjack-row-1">
+
+        <div id="your-box">
+            <h2>Ty: <span id="your-blackjack-result">0</span></h2>
+        </div>
+
+        <div id="dealer-box">
+            <h2>Krupier: <span id="dealer-blackjack-result">0</span></h2>
+        </div>
+            
+      </div>
+
+      <div class="flex-blackjack-row-2">
+
+          <div>
+            <button class="btn-lg mr-3 btn-primary" id="blackjack-hit-button">Kolejna Karta</button>
+            <button class="btn-lg mr-3 btn-warning" id="blackjack-stand-button">Pas - Kolej Krupiera</button>
+            <button class="btn-lg btn-danger" id="blackjack-deal-button">Kolejna Partia</button>
+          </div>
+
+      </div>
+
+      <div class="flex-blackjack-row-3">
+
+        <table class="text-warning">
+            <tr>
+                <th>Wygrane</th>
+                <th>Przegrane</th>
+                <th>Remisy</th>
+            </tr>
+
+            <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="losses">0</span></td>
+                <td><span id="draws">0</span></td>
+            </tr>
+        </table>
+
+      </div>
+
+      <p>Copyright &copy; strzewiczek.pl</p>
+
+    </div>
+
+    <script src="blackjack.js"></script>
+
+  </body>
+
+  </html>
