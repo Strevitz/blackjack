@@ -1,0 +1,15 @@
+{
+  "name": "blackjack_game",
+  "version": "1.0.0",
+  "description": "awesome blackjack simple board game",
+  "main": "blackjack.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "Arthur Strzewiczek",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "2.5.4"
+  }
+}
