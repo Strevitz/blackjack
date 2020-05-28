@@ -75,7 +75,7 @@ table, th, td{
 @font-face{
     font-family: 'CasinoShadow';
     src: url("font/CasinoShadow.ttf");
-    src: 
+    src:
 		local('CasinoShadow'),
 		local('CasinoShadow'),
 		url('font/CasinoShadow.ttf');

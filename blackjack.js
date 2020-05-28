@@ -25,7 +25,7 @@ document.querySelector('#blackjack-stand-button').addEventListener('click', deal
 
 document.querySelector('#blackjack-deal-button').addEventListener('click', blackjackDeal);
 
-function blackjackHit(){ 
+function blackjackHit(){
     if (blackJackGame['isStand'] === false){
     let card = randomCard();
     showCard(card, YOU);
